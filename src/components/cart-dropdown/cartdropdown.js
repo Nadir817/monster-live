@@ -20,7 +20,7 @@ function CartDropdown({ cartItems, history, dispatch }) {
       <CustomButton
         onClick={() => {
           dispatch(toggleCart());
-          history.push("/react-ecom/checkout");
+          history.push("/checkout");
         }}
       >
         CHECKOUT
